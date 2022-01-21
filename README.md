@@ -14,9 +14,8 @@ dinero que tiene a la mano en ese momento. De lo contrario, devuelva NO.
 
 ## Ejemplo:
 
-### tickets([25, 25, 50]) // => SI
+tickets([25, 25, 50]) // => SI
 
-### tickets([25, 100]) // => NO. Vania no tendra suficiente dinero para dar cambio/vuelto a los 100 dolares
+tickets([25, 100]) // => NO. Vania no tendra suficiente dinero para dar cambio/vuelto a los 100 dolares
 
-### tickets([25, 25, 50, 50, 100]) // => NO. Vania no tendra suficiente dinero para dar 75 dolares
-de cambio/vuelto (no puedes crear dos billetes de 25 a partir de un billete de 50)
+tickets([25, 25, 50, 50, 100]) // => NO. Vania no tendra suficiente dinero para dar 75 dolares de cambio/vuelto (no puedes crear dos billetes de 25 a partir de un billete de 50)
